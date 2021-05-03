@@ -1,5 +1,5 @@
 {
-      "name": "Layla Robot",
+      "name": "Gina Management Bot!",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "LaylaRobot"
       ],   
-   "repository": "https://github.com/QueenArzoo/LaylaRobot.git",
+   "repository": "https://github.com/anehajahlu/Ginabot.git",
    "addons": [
       {
          "options": {
