@@ -52,9 +52,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-You can find my list of available commands with /help.
-i'm a group manager bot. Maintained by @HEROGAMERS1 ❤
+Haiii Guys 🥰👋🏻{}, Nama Kamu {}! 
+Aku bot GINA MANAGEMENT GRUP, Aku akan siap menjaga dan keamana grup kalian!:)
+Apabila kurang jelas bisa PM OWNER AKU!, Command buat fitur-fitur aku bisa klik /help guys!:))
 
 """
 
@@ -197,22 +197,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="👰 Add 𝙇𝙖𝙮𝙡𝙖 to your group",
+                            text="👰 Add GINA! to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/Girls_and_Boys_Chatting"),
+                             url=f"https://t.me/https://t.me/joinchat/8sTg_lzxwWBiZWZl"),
                          InlineKeyboardButton(
                              text="📘 Logs",
-                             url="https://t.me/LaylaLogs")
+                             url="https://t.me/Ginabotlogs")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="☑️ Source code",
-                             url="https://github.com/QueenArzoo/LaylaRobot")
+                             text="🦇 Owner-Aku",
+                             url="https://t.me/afterdaytoxic")
                      ]]))
     else:
         update.effective_message.reply_text(
