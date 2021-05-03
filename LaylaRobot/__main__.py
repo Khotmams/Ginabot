@@ -204,7 +204,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/https://t.me/humangabutguys"),
+                             url=f"https://t.me/humangabutguys"),
                          InlineKeyboardButton(
                              text="📘 Logs",
                              url="https://t.me/Ginabotlogs")
@@ -216,7 +216,7 @@ def start(update: Update, context: CallbackContext):
                      ]]))
     else:
         update.effective_message.reply_text(
-            "I'm online!\n<b>Up since:</b> <code>{}</code>".format(uptime),
+            "Aku Sudah On Guys!\n<b>Time Since:</b> <code>{}</code>".format(uptime),
             parse_mode=ParseMode.HTML)
 
 
