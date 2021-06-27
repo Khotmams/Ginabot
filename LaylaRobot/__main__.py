@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Haiii Guys 🥰👋🏻{}, Nama Kamu {}! 
-Aku bot GINA MANAGEMENT GRUP, Aku akan siap menjaga dan keamana grup kalian!:)
+Aku bot SPY MANAGEMENT GRUP, Aku akan siap menjaga dan keamana grup kalian!:)
 Apabila kurang jelas bisa PM OWNER AKU!, Command buat fitur-fitur aku bisa klik /help guys!:))
 
 """
@@ -76,7 +76,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/7a31983e03c24498aceed.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/ddaca3f0d7a69336c8d32.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Supporting him; [Hero](t.me/HEROGAMERS1)"""
